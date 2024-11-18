@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown with Neural Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="neuralNetworkCanvas"></canvas>
+    <div class="card">
+        <div>
+            <H1>Campaign Name</H1>
+        </div>
+        
+        <div class="panel" id="panel-content">
+            <h2>New Campaign Details</h2>
+            <p>Join us for an incredible journey!</p>
+            <p>Be part of the change.</p>
+            <p>Exciting events, speakers, and more await you.</p>
+            <p>Don't miss out on this unique experience!</p>
+        </div>
+        
+
+        <div id="slider">
+            <div class="slide"><img src="Photos/1.jpg" alt="Slide 1"></div>
+            <div class="slide"><img src="Photos/2.jpg" alt="Slide 2"></div>
+            <div class="slide"><img src="Photos/3.jpg" alt="Slide 3"></div>
+            <div class="slide"><img src="Photos/4.jpg" alt="Slide 4"></div>
+            <div class="slide"><img src="Photos/5.jpg" alt="Slide 5"></div>
+        </div>
+
+        <h1>Registration is closing soon</h1>
+        <div id="countdown">
+            <div class="countdown-item">
+                <div class="countdown-number" id="days">0</div>
+                <div class="countdown-label">Days</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="hours">0</div>
+                <div class="countdown-label">Hours</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="minutes">0</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-number" id="seconds">0</div>
+                <div class="countdown-label">Seconds</div>
+            </div>
+        </div>
+
+        <button onclick="openForm()">Register Now</button>
+        <footer>
+            <p>&copy; 2024 AR Robin. All rights reserved.</p>
+        </footer> 
+    </div>
+       
+    <script src="script.js"></script>
+</body>
+
+</html>
